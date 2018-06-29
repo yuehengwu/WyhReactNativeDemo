@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0914706620E112A700EE7646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914706520E112A700EE7646 /* AppDelegate.m */; };
+		0914706920E112A700EE7646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914706820E112A700EE7646 /* ViewController.m */; };
+		0914706C20E112A700EE7646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0914706A20E112A700EE7646 /* Main.storyboard */; };
+		0914706E20E112A700EE7646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0914706D20E112A700EE7646 /* Assets.xcassets */; };
+		0914707120E112A700EE7646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0914706F20E112A700EE7646 /* LaunchScreen.storyboard */; };
+		0914707420E112A700EE7646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914707320E112A700EE7646 /* main.m */; };
+		0914707E20E112A700EE7646 /* WyhTouchRNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914707D20E112A700EE7646 /* WyhTouchRNTests.m */; };
+		0914708920E112A700EE7646 /* WyhTouchRNUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914708820E112A700EE7646 /* WyhTouchRNUITests.m */; };
+		0914709C20E112EB00EE7646 /* WyhTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914709A20E112EB00EE7646 /* WyhTabBarController.m */; };
+		0914709F20E1137F00EE7646 /* WyhNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914709E20E1137F00EE7646 /* WyhNavigationController.m */; };
+		091470A620E1145E00EE7646 /* WyhMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091470A520E1145E00EE7646 /* WyhMainViewController.m */; };
+		091470A920E1146B00EE7646 /* WyhRNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 091470A820E1146B00EE7646 /* WyhRNViewController.m */; };
+		0914710B20E1385F00EE7646 /* UIViewController+WyhAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914710920E1385F00EE7646 /* UIViewController+WyhAlert.m */; };
+		0914710E20E138BE00EE7646 /* UIAlertController+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = 0914710C20E138BE00EE7646 /* UIAlertController+Window.m */; };
+		09A81C0720E4D6BB00833380 /* WyhRNDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A81C0620E4D6BB00833380 /* WyhRNDetailViewController.m */; };
+		09A81C0A20E535DD00833380 /* WyhBussnessBridgeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A81C0920E535DD00833380 /* WyhBussnessBridgeModule.m */; };
+		09A81C0D20E536B400833380 /* WyhBaseBridgeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A81C0C20E536B400833380 /* WyhBaseBridgeModule.m */; };
+		09A81C1020E5386300833380 /* WyhAccountModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A81C0F20E5386300833380 /* WyhAccountModule.m */; };
+		0FBE98DA3446285192B12E09 /* libPods-WyhTouchRN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE63752DE340FC9D9835455 /* libPods-WyhTouchRN.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0914707A20E112A700EE7646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0914705920E112A700EE7646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0914706020E112A700EE7646;
+			remoteInfo = WyhTouchRN;
+		};
+		0914708520E112A700EE7646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0914705920E112A700EE7646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0914706020E112A700EE7646;
+			remoteInfo = WyhTouchRN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0914706120E112A700EE7646 /* WyhTouchRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WyhTouchRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0914706420E112A700EE7646 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0914706520E112A700EE7646 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0914706720E112A700EE7646 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0914706820E112A700EE7646 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0914706B20E112A700EE7646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0914706D20E112A700EE7646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0914707020E112A700EE7646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0914707220E112A700EE7646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0914707320E112A700EE7646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0914707920E112A700EE7646 /* WyhTouchRNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WyhTouchRNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0914707D20E112A700EE7646 /* WyhTouchRNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WyhTouchRNTests.m; sourceTree = "<group>"; };
+		0914707F20E112A700EE7646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0914708420E112A700EE7646 /* WyhTouchRNUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WyhTouchRNUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0914708820E112A700EE7646 /* WyhTouchRNUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WyhTouchRNUITests.m; sourceTree = "<group>"; };
+		0914708A20E112A700EE7646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0914709A20E112EB00EE7646 /* WyhTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WyhTabBarController.m; sourceTree = "<group>"; };
+		0914709B20E112EB00EE7646 /* WyhTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WyhTabBarController.h; sourceTree = "<group>"; };
+		0914709D20E1137F00EE7646 /* WyhNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WyhNavigationController.h; sourceTree = "<group>"; };
+		0914709E20E1137F00EE7646 /* WyhNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WyhNavigationController.m; sourceTree = "<group>"; };
+		091470A420E1145E00EE7646 /* WyhMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WyhMainViewController.h; sourceTree = "<group>"; };
+		091470A520E1145E00EE7646 /* WyhMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WyhMainViewController.m; sourceTree = "<group>"; };
+		091470A720E1146B00EE7646 /* WyhRNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WyhRNViewController.h; sourceTree = "<group>"; };
+		091470A820E1146B00EE7646 /* WyhRNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WyhRNViewController.m; sourceTree = "<group>"; };
+		0914710920E1385F00EE7646 /* UIViewController+WyhAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WyhAlert.m"; sourceTree = "<group>"; };
+		0914710A20E1385F00EE7646 /* UIViewController+WyhAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WyhAlert.h"; sourceTree = "<group>"; };
+		0914710C20E138BE00EE7646 /* UIAlertController+Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Window.m"; sourceTree = "<group>"; };
+		0914710D20E138BE00EE7646 /* UIAlertController+Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Window.h"; sourceTree = "<group>"; };
+		09A81C0520E4D6BB00833380 /* WyhRNDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WyhRNDetailViewController.h; sourceTree = "<group>"; };
+		09A81C0620E4D6BB00833380 /* WyhRNDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WyhRNDetailViewController.m; sourceTree = "<group>"; };
+		09A81C0820E535DD00833380 /* WyhBussnessBridgeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WyhBussnessBridgeModule.h; sourceTree = "<group>"; };
+		09A81C0920E535DD00833380 /* WyhBussnessBridgeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WyhBussnessBridgeModule.m; sourceTree = "<group>"; };
+		09A81C0B20E536B400833380 /* WyhBaseBridgeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WyhBaseBridgeModule.h; sourceTree = "<group>"; };
+		09A81C0C20E536B400833380 /* WyhBaseBridgeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WyhBaseBridgeModule.m; sourceTree = "<group>"; };
+		09A81C0E20E5386300833380 /* WyhAccountModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WyhAccountModule.h; sourceTree = "<group>"; };
+		09A81C0F20E5386300833380 /* WyhAccountModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WyhAccountModule.m; sourceTree = "<group>"; };
+		5DE63752DE340FC9D9835455 /* libPods-WyhTouchRN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WyhTouchRN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6915D39794A167CABD2CFD6F /* Pods-WyhTouchRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhTouchRN.release.xcconfig"; path = "Pods/Target Support Files/Pods-WyhTouchRN/Pods-WyhTouchRN.release.xcconfig"; sourceTree = "<group>"; };
+		AFD4129B3679810410B82F7B /* Pods-WyhTouchRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyhTouchRN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WyhTouchRN/Pods-WyhTouchRN.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0914705E20E112A700EE7646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBE98DA3446285192B12E09 /* libPods-WyhTouchRN.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914707620E112A700EE7646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914708120E112A700EE7646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0914705820E112A700EE7646 = {
+			isa = PBXGroup;
+			children = (
+				0914706320E112A700EE7646 /* WyhTouchRN */,
+				0914707C20E112A700EE7646 /* WyhTouchRNTests */,
+				0914708720E112A700EE7646 /* WyhTouchRNUITests */,
+				0914706220E112A700EE7646 /* Products */,
+				D1017D9416E705C8D0482B4F /* Pods */,
+				A671C7DFF16B4D91D1971774 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0914706220E112A700EE7646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0914706120E112A700EE7646 /* WyhTouchRN.app */,
+				0914707920E112A700EE7646 /* WyhTouchRNTests.xctest */,
+				0914708420E112A700EE7646 /* WyhTouchRNUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0914706320E112A700EE7646 /* WyhTouchRN */ = {
+			isa = PBXGroup;
+			children = (
+				0914706420E112A700EE7646 /* AppDelegate.h */,
+				0914706520E112A700EE7646 /* AppDelegate.m */,
+				0914706720E112A700EE7646 /* ViewController.h */,
+				0914706820E112A700EE7646 /* ViewController.m */,
+				0914710820E1382700EE7646 /* Category */,
+				0914710120E12EFA00EE7646 /* Modules */,
+				091470A020E1144300EE7646 /* Classes */,
+				0914709920E112EB00EE7646 /* Base */,
+				0914706A20E112A700EE7646 /* Main.storyboard */,
+				0914706D20E112A700EE7646 /* Assets.xcassets */,
+				0914706F20E112A700EE7646 /* LaunchScreen.storyboard */,
+				0914707220E112A700EE7646 /* Info.plist */,
+				0914707320E112A700EE7646 /* main.m */,
+			);
+			path = WyhTouchRN;
+			sourceTree = "<group>";
+		};
+		0914707C20E112A700EE7646 /* WyhTouchRNTests */ = {
+			isa = PBXGroup;
+			children = (
+				0914707D20E112A700EE7646 /* WyhTouchRNTests.m */,
+				0914707F20E112A700EE7646 /* Info.plist */,
+			);
+			path = WyhTouchRNTests;
+			sourceTree = "<group>";
+		};
+		0914708720E112A700EE7646 /* WyhTouchRNUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0914708820E112A700EE7646 /* WyhTouchRNUITests.m */,
+				0914708A20E112A700EE7646 /* Info.plist */,
+			);
+			path = WyhTouchRNUITests;
+			sourceTree = "<group>";
+		};
+		0914709920E112EB00EE7646 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0914709B20E112EB00EE7646 /* WyhTabBarController.h */,
+				0914709A20E112EB00EE7646 /* WyhTabBarController.m */,
+				0914709D20E1137F00EE7646 /* WyhNavigationController.h */,
+				0914709E20E1137F00EE7646 /* WyhNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		091470A020E1144300EE7646 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				091470A420E1145E00EE7646 /* WyhMainViewController.h */,
+				091470A520E1145E00EE7646 /* WyhMainViewController.m */,
+				091470A720E1146B00EE7646 /* WyhRNViewController.h */,
+				091470A820E1146B00EE7646 /* WyhRNViewController.m */,
+				09A81C0520E4D6BB00833380 /* WyhRNDetailViewController.h */,
+				09A81C0620E4D6BB00833380 /* WyhRNDetailViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0914710120E12EFA00EE7646 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				09A81C0B20E536B400833380 /* WyhBaseBridgeModule.h */,
+				09A81C0C20E536B400833380 /* WyhBaseBridgeModule.m */,
+				09A81C0820E535DD00833380 /* WyhBussnessBridgeModule.h */,
+				09A81C0920E535DD00833380 /* WyhBussnessBridgeModule.m */,
+				09A81C0E20E5386300833380 /* WyhAccountModule.h */,
+				09A81C0F20E5386300833380 /* WyhAccountModule.m */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0914710820E1382700EE7646 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0914710A20E1385F00EE7646 /* UIViewController+WyhAlert.h */,
+				0914710920E1385F00EE7646 /* UIViewController+WyhAlert.m */,
+				0914710D20E138BE00EE7646 /* UIAlertController+Window.h */,
+				0914710C20E138BE00EE7646 /* UIAlertController+Window.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A671C7DFF16B4D91D1971774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE63752DE340FC9D9835455 /* libPods-WyhTouchRN.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1017D9416E705C8D0482B4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFD4129B3679810410B82F7B /* Pods-WyhTouchRN.debug.xcconfig */,
+				6915D39794A167CABD2CFD6F /* Pods-WyhTouchRN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0914706020E112A700EE7646 /* WyhTouchRN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0914708D20E112A700EE7646 /* Build configuration list for PBXNativeTarget "WyhTouchRN" */;
+			buildPhases = (
+				05E841776561EAD134B0EF3A /* [CP] Check Pods Manifest.lock */,
+				0914705D20E112A700EE7646 /* Sources */,
+				0914705E20E112A700EE7646 /* Frameworks */,
+				0914705F20E112A700EE7646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WyhTouchRN;
+			productName = WyhTouchRN;
+			productReference = 0914706120E112A700EE7646 /* WyhTouchRN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0914707820E112A700EE7646 /* WyhTouchRNTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0914709020E112A700EE7646 /* Build configuration list for PBXNativeTarget "WyhTouchRNTests" */;
+			buildPhases = (
+				0914707520E112A700EE7646 /* Sources */,
+				0914707620E112A700EE7646 /* Frameworks */,
+				0914707720E112A700EE7646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0914707B20E112A700EE7646 /* PBXTargetDependency */,
+			);
+			name = WyhTouchRNTests;
+			productName = WyhTouchRNTests;
+			productReference = 0914707920E112A700EE7646 /* WyhTouchRNTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0914708320E112A700EE7646 /* WyhTouchRNUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0914709320E112A700EE7646 /* Build configuration list for PBXNativeTarget "WyhTouchRNUITests" */;
+			buildPhases = (
+				0914708020E112A700EE7646 /* Sources */,
+				0914708120E112A700EE7646 /* Frameworks */,
+				0914708220E112A700EE7646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0914708620E112A700EE7646 /* PBXTargetDependency */,
+			);
+			name = WyhTouchRNUITests;
+			productName = WyhTouchRNUITests;
+			productReference = 0914708420E112A700EE7646 /* WyhTouchRNUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0914705920E112A700EE7646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wyh;
+				TargetAttributes = {
+					0914706020E112A700EE7646 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0914707820E112A700EE7646 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0914706020E112A700EE7646;
+					};
+					0914708320E112A700EE7646 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0914706020E112A700EE7646;
+					};
+				};
+			};
+			buildConfigurationList = 0914705C20E112A700EE7646 /* Build configuration list for PBXProject "WyhTouchRN" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0914705820E112A700EE7646;
+			productRefGroup = 0914706220E112A700EE7646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0914706020E112A700EE7646 /* WyhTouchRN */,
+				0914707820E112A700EE7646 /* WyhTouchRNTests */,
+				0914708320E112A700EE7646 /* WyhTouchRNUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0914705F20E112A700EE7646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0914707120E112A700EE7646 /* LaunchScreen.storyboard in Resources */,
+				0914706E20E112A700EE7646 /* Assets.xcassets in Resources */,
+				0914706C20E112A700EE7646 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914707720E112A700EE7646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914708220E112A700EE7646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E841776561EAD134B0EF3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WyhTouchRN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0914705D20E112A700EE7646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A81C0720E4D6BB00833380 /* WyhRNDetailViewController.m in Sources */,
+				0914710B20E1385F00EE7646 /* UIViewController+WyhAlert.m in Sources */,
+				0914709C20E112EB00EE7646 /* WyhTabBarController.m in Sources */,
+				0914709F20E1137F00EE7646 /* WyhNavigationController.m in Sources */,
+				0914706920E112A700EE7646 /* ViewController.m in Sources */,
+				0914710E20E138BE00EE7646 /* UIAlertController+Window.m in Sources */,
+				09A81C0D20E536B400833380 /* WyhBaseBridgeModule.m in Sources */,
+				0914707420E112A700EE7646 /* main.m in Sources */,
+				091470A620E1145E00EE7646 /* WyhMainViewController.m in Sources */,
+				09A81C0A20E535DD00833380 /* WyhBussnessBridgeModule.m in Sources */,
+				091470A920E1146B00EE7646 /* WyhRNViewController.m in Sources */,
+				09A81C1020E5386300833380 /* WyhAccountModule.m in Sources */,
+				0914706620E112A700EE7646 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914707520E112A700EE7646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0914707E20E112A700EE7646 /* WyhTouchRNTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0914708020E112A700EE7646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0914708920E112A700EE7646 /* WyhTouchRNUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0914707B20E112A700EE7646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0914706020E112A700EE7646 /* WyhTouchRN */;
+			targetProxy = 0914707A20E112A700EE7646 /* PBXContainerItemProxy */;
+		};
+		0914708620E112A700EE7646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0914706020E112A700EE7646 /* WyhTouchRN */;
+			targetProxy = 0914708520E112A700EE7646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0914706A20E112A700EE7646 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0914706B20E112A700EE7646 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0914706F20E112A700EE7646 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0914707020E112A700EE7646 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0914708B20E112A700EE7646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0914708C20E112A700EE7646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0914708E20E112A700EE7646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD4129B3679810410B82F7B /* Pods-WyhTouchRN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FUAH8HMK9E;
+				INFOPLIST_FILE = WyhTouchRN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wyh.WyhTouchRN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0914708F20E112A700EE7646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6915D39794A167CABD2CFD6F /* Pods-WyhTouchRN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FUAH8HMK9E;
+				INFOPLIST_FILE = WyhTouchRN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wyh.WyhTouchRN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0914709120E112A700EE7646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FUAH8HMK9E;
+				INFOPLIST_FILE = WyhTouchRNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wyh.WyhTouchRNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WyhTouchRN.app/WyhTouchRN";
+			};
+			name = Debug;
+		};
+		0914709220E112A700EE7646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FUAH8HMK9E;
+				INFOPLIST_FILE = WyhTouchRNTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wyh.WyhTouchRNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WyhTouchRN.app/WyhTouchRN";
+			};
+			name = Release;
+		};
+		0914709420E112A700EE7646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FUAH8HMK9E;
+				INFOPLIST_FILE = WyhTouchRNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wyh.WyhTouchRNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WyhTouchRN;
+			};
+			name = Debug;
+		};
+		0914709520E112A700EE7646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FUAH8HMK9E;
+				INFOPLIST_FILE = WyhTouchRNUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wyh.WyhTouchRNUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WyhTouchRN;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0914705C20E112A700EE7646 /* Build configuration list for PBXProject "WyhTouchRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0914708B20E112A700EE7646 /* Debug */,
+				0914708C20E112A700EE7646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0914708D20E112A700EE7646 /* Build configuration list for PBXNativeTarget "WyhTouchRN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0914708E20E112A700EE7646 /* Debug */,
+				0914708F20E112A700EE7646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0914709020E112A700EE7646 /* Build configuration list for PBXNativeTarget "WyhTouchRNTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0914709120E112A700EE7646 /* Debug */,
+				0914709220E112A700EE7646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0914709320E112A700EE7646 /* Build configuration list for PBXNativeTarget "WyhTouchRNUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0914709420E112A700EE7646 /* Debug */,
+				0914709520E112A700EE7646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0914705920E112A700EE7646 /* Project object */;
+}
